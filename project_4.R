@@ -1,5 +1,6 @@
 # Human activity recognition dataset can be obtained from 
 # http://archive.ics.uci.edu/ml/datasets/Smartphone-Based+Recognition+of+Human+Activities+and+Postural+Transitions
+# Reference: Jorge-L. Reyes-Ortiz, Luca Oneto, Albert Samà, Xavier Parra, Davide Anguita. Transition-Aware Human Activity Recognition Using Smartphones. Neurocomputing. Springer 2015.
 
 # train dataset and its corresponding labels
 data=read.table("Train/X_train.txt",header = FALSE, sep = " ", dec = ".")
